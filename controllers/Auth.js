@@ -25,7 +25,7 @@ export const Login = async (req, res) => {
   const name = user[0].name;
   const email = user[0].email;
   const role = user[0].role;
-  res.status(200).json({ uuid, name, email, role });
+  res.status(200).json({ msg: "berhasil login" });
 
   //   {
   //     "email":"yyy' OR 1=1 -- ",
